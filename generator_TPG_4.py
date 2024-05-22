@@ -242,12 +242,12 @@ def RunBestAgent(args):
     simulated_data = pd.DataFrame(simulation_results)
 
     simulated_data = pd.concat([data[:MAX_STEPS_G+1], simulated_data], ignore_index=True)
-    simulated_data.to_csv('Simulation.txt', index=False)
+    simulated_data.to_csv('Simulation_4.txt', index=False)
 
 if __name__ == '__main__':
     tStart = time.time()
-    trainer_checkpoint_path = Path("trainer_savepoint.pkl")
-    gen_checkpoint_path = Path("gen_savepoint.txt")
+    trainer_checkpoint_path = Path("trainer_savepoint_4.pkl")
+    gen_checkpoint_path = Path("gen_savepoint_4.txt")
 
     if trainer_checkpoint_path.exists():
         trainer = pickle.load(open(trainer_checkpoint_path, 'rb'))
@@ -265,7 +265,7 @@ if __name__ == '__main__':
         gen_start = 0
 
     # Open a text file to write output
-    with open('results.txt', 'a' if gen_start > 0 else 'w') as file:
+    with open('results_4.txt', 'a' if gen_start > 0 else 'w') as file:
         file.write(f"Trainer done: {trainer}\n")
         processes = mp.cpu_count()
 
@@ -284,11 +284,11 @@ if __name__ == '__main__':
             teams = trainer.applyScores(scoreList)  
             
             champ = trainer.getEliteAgent(task='main')
-            champ.saveToFile("best_agent")
+            champ.saveToFile("best_agent_4")
 
             trainer.evolve(tasks=['main'])
             
-            validation_champion_path = Path("validation_champion")
+            validation_champion_path = Path("validation_champion_4")
             if gen % 10 == 0 and gen != 0:  # Validation phase every 10 generations
                 prevbestscore = float('-inf') #starting value of negative infinity
                 looper = True
@@ -308,7 +308,7 @@ if __name__ == '__main__':
                     if current_best_validation.team.outcomes['validation'] >= prevbestscore:
                         prevbestscore = current_best_validation.team.outcomes['validation']
                         validationChamp = current_best_validation
-                        validationChamp.saveToFile("validation_champion")
+                        validationChamp.saveToFile("validation_champion_4")
                     else: 
                         #error check just in case file does not exist 
                         if validation_champion_path.exists():
@@ -318,7 +318,7 @@ if __name__ == '__main__':
                             validationChamp = trainer.getEliteAgent(task='validation')
                         print("validationchampion: ", validationChamp.team.outcomes)
                         print(f"Validation champ with the best test score with {validationChamp.team.outcomes['validation']} on test data.")
-                        with open("final_validation_scores.txt", 'w') as f:
+                        with open("final_validation_scores_4.txt", 'w') as f:
                             f.write(str(validationChamp.team.outcomes['validation']))
                         looper= False
                             
@@ -334,8 +334,8 @@ if __name__ == '__main__':
             print(f"Gen: {gen}, Best Score: {scoreStats['max']}, Avg Score: {scoreStats['average']}, Time: {str((time.time() - tStart)/3600)}")
             file.write(f"Gen: {gen}, Best Score: {scoreStats['max']}, Avg Score: {scoreStats['average']}, Time: {str((time.time() - tStart)/3600)}\n")
 
-            trainer.saveToFile("trainer_savepoint.pkl")
-            with open("gen_savepoint.txt", 'w') as gen_file:
+            trainer.saveToFile("trainer_savepoint_4.pkl")
+            with open("gen_savepoint_4.txt", 'w') as gen_file:
                 gen_file.write(str(gen))
             
             #to keep the champ saved in a file for evaluation later on 
@@ -345,7 +345,7 @@ if __name__ == '__main__':
         for score in allScores:
             file.write(f"{score}\n")
 
-        champ = pickle.load(open("best_agent", 'rb'))
+        champ = pickle.load(open("best_agent_4", 'rb'))
         champ.configFunctionsSelf()
         print(champ.team)
         print(champ.team.fitness)
