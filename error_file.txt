@@ -1,0 +1,1409 @@
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/alinaqvi/.local/lib/python3.10/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'inpt' of function 'ConfProgram.execute_mem'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "../../../../home/alinaqvi/.local/lib/python3.10/site-packages/tpg/configuration/conf_program.py", line 78:
+    @njit
+    def execute_mem(inpt, regs, modes, ops, dsts, srcs,
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+slurmstepd: error: *** JOB 29405120 ON nc20246 CANCELLED AT 2024-05-24T17:27:36 DUE TO TIME LIMIT ***
