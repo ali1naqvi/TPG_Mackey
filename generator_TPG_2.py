@@ -10,12 +10,16 @@ from pathlib import Path
 from tpg.utils import getLearners, getTeams, learnerInstructionStats, actionInstructionStats, pathDepths
 
 #values we can modify
-MAX_STEPS_G = 800 #max values we want for training starts with 1 (so subtract one)
-GENERATIONS = 20000
+MAX_STEPS_G = 1000 #max values we want for training starts with 1 (so subtract one)
+GENERATIONS = 11000000
 EXTRA_TIME_STEPS  = 300 #number of wanted generated values 
 STARTING_STEP = 0 #starting step
 DATA_DIVISION = 0.5
-EP_LENGTH = 100
+
+
+PRIME_STEPS = 50
+TRAINING_STEPS = 50
+VALIDATION_STEPS = 100
 
 
 # Read the text file into a pandas DataFrame
@@ -28,19 +32,38 @@ data = data.squeeze()
 #reward function, using Normalized Compression Distance
 
 
-def composite(sample, target):
-    #NCD
+def compress_ppmz(data):
+    # Implement compression using PPMZ
+    # Replace with actual PPMZ compression function
+    pass
+
+def ncd(sample, target):
+    # Normalize the sample
     sample = np.clip(sample, 0, 1)
     
+    # Convert sample and target to bytes
     sample_bytes = sample.tobytes()
     target_bytes = target.tobytes()
+    
     # Compress individual sequences and concatenated sequence
+    #c_sample = len(compress_ppmz(sample_bytes))
+    #c_target = len(compress_ppmz(target_bytes))
     c_sample = len(zlib.compress(sample_bytes))
     c_target = len(zlib.compress(target_bytes))
+    
+    #c_concatenated = len(compress_ppmz(sample_bytes + target_bytes))
     c_concatenated = len(zlib.compress(sample_bytes + target_bytes))
+    
+    # Calculate NCD value
     ncd_value = (c_concatenated - min(c_sample, c_target)) / max(c_sample, c_target)
+    
+    return ncd_value
 
-    return ncd_value   
+def mse(sample, target):
+    sum_squared_error = 0
+    for a, p in zip(target, sample):
+        sum_squared_error += (a - p) ** 2
+    mse = (sum_squared_error / len(sample))
 
 #environment
 class TimeSeriesEnvironment:
@@ -81,7 +104,7 @@ class TimeSeriesEnvironment:
             #calculate at the end of the episode with all values
             self.total_states = np.array(self.total_states, dtype=np.float64)
             self.total_true_states = np.array(self.total_true_states, dtype=np.float64)
-            reward = -composite(self.total_states.ravel(), self.total_true_states.ravel())
+            reward = -ncd(self.total_states.ravel(), self.total_true_states.ravel())
             #print("states: ", self.total_states, "reward: ", reward)
             done = True
 
@@ -90,7 +113,7 @@ class TimeSeriesEnvironment:
     
     def step_simulation(self, action_type):
         # stuff print(action_type)
-        action_id, action_value = action_type
+        _, action_value = action_type
         self.current_step +=1
         return action_value
     # Access the row corresponding to the current step
@@ -108,11 +131,11 @@ def runAgent(args):
     agent.configFunctionsSelf()
     env = TimeSeriesEnvironment()
     scoreTotal = 0
-    episode_length = EP_LENGTH
-    numEpisodes = int(MAX_STEPS_G / episode_length)
+    episode_length = PRIME_STEPS + TRAINING_STEPS # 50+50=100
+
+    numEpisodes = int(MAX_STEPS_G / episode_length) # 800/100=8
     reward = 0
 
-    priming_steps = round(episode_length * DATA_DIVISION) 
     for ep in range(numEpisodes):
         isDone = False
         action_state = env.reset(ep, episode_length) #resets at next 100 window (based on episode)
@@ -122,22 +145,18 @@ def runAgent(args):
         while True:
             #prime first half of the episode
             #if current step is less than the second half (0-49)
-            if  env.current_step < ((ep * episode_length) + priming_steps):
+            if  env.current_step < ((ep * episode_length) + PRIME_STEPS):
                 action_value = (agent.act(action_state))
                 env.current_step += 1 #increase step in environment
                 action_state = env._get_state()
                 predicted_state = action_state #updating predicted
             else:
             #second half of episode
-                #after direct steps, it will take the predicted value produced
                 action_value = (agent.act(predicted_state))
                 #stuff  print("step now: ", env.current_step, "with step: ", predicted_state)
                 action_state, predicted_state, reward, isDone = env.step(action_value) #now fix step 
-                scoreEp += reward
+                scoreEp += reward    
                 
-            # Apply clipping to continuous actions : action_value 
-            #action_state gives you the next step
-            #env.set_action_mem(action_state) #add state to memory
             if isDone:
                 # stuff print("we finished")
                 break
@@ -158,11 +177,10 @@ def RunValidationAgents(args):
 
     env = TimeSeriesEnvironment()
     scoreTotal = 0
-    episode_length = EP_LENGTH * 2 #100 *2 = 200
-    numEpisodes = int(MAX_STEPS_G / episode_length) # 800 / 200 = 4
+    episode_length = PRIME_STEPS + VALIDATION_STEPS #50 + 100 = 150
+    numEpisodes = int((MAX_STEPS_G - PRIME_STEPS) / episode_length) # 750 / 150 = 5
     reward = 0
 
-    priming_steps = round(episode_length * DATA_DIVISION) # 200 * 0.5 = 100 PRIMING
     for ep in range(numEpisodes):
         #print("episode: ", ep)
         counter_direct = 0
@@ -176,26 +194,19 @@ def RunValidationAgents(args):
             # change the action_state returning. Either use prediction (recursion) or direct approach 
             #prime first half of the episode
             #intuition: multiplication of episode and length gives us the starting step + priming steps gives us where the forecasting should start
-            if ((ep * episode_length) + priming_steps) > env.current_step:
-                action_value = (agent.act(action_state))
+            #0 * 150 = 0
+            #... 
+            #4 * 150 = 600 + 50 = 650 
+            if ((ep * episode_length) + PRIME_STEPS) > env.current_step:
+                action_value = (agent.act(action_state)) #can ignore output since its priming
                 env.current_step +=1 #increase step in environment
-                action_state = env._get_state()
-            #second half of episode
+                action_state = env._get_state() #recursively updating observation state
+            #second half of episode: 100 steps forecasting
             else:
-                if counter_direct < (priming_steps / 2):
-                    action_value = (agent.act(action_state))
-                    env.current_step +=1 #increase step in environment
-                    action_state = env._get_state()
-                    predicted_state = action_state
-                    counter_direct +=1
-                else:
-                    action_value = (agent.act(predicted_state))
-                    action_state, predicted_state, reward, isDone = env.step(action_value) #now fix step 
-                
-            # Apply clipping to continuous actions : action_value 
-            #action_state gives you the next step
-            scoreEp += reward
-            #env.set_action_mem(action_state) #add state to memory
+                predicted_state = (agent.act(action_state))
+                action_state, predicted_state, reward, isDone = env.step(predicted_state) #now fix step
+                scoreEp += reward
+
             if isDone:
                 break
         scoreTotal += scoreEp
@@ -215,7 +226,7 @@ def RunBestAgent(args):
     # stuff print("Priming")
     # 0 to 799 (inclusive)
     for x in range(MAX_STEPS_G):
-        last_state = data[x]
+        last_state = [data[x]]
         action_value = (agent.act(last_state))
         print("step "+str(x)+" for state: ", last_state)
     

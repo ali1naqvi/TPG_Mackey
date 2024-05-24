@@ -3,3 +3,6 @@
 3: NCD 0.0 MSE 1.0
 4: NCD 0.7 MSE 0.3
 5: NCD 0.3 MSE 0.7
+
+
+2 (updated): changed to PPMZ compression
