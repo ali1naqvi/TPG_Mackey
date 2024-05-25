@@ -6,3 +6,12 @@
 
 
 2 (updated): changed to PPMZ compression
+
+
+
+new tests: 
+2: NCD for training
+    and MSE for validation
+
+3: MSE for training
+    and NCD for validation
