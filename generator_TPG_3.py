@@ -12,7 +12,7 @@ from tpg.utils import getLearners, getTeams, learnerInstructionStats, actionInst
 
 #values we can modify
 MAX_STEPS_G = 1000 #max values we want for training starts with 1 (so subtract one)
-GENERATIONS = 972
+GENERATIONS = 100000
 EXTRA_TIME_STEPS  = 300 #number of wanted generated values 
 STARTING_STEP = 0 #starting step
 DATA_DIVISION = 0.5
@@ -69,6 +69,7 @@ def mse(sample, target):
     for a, p in zip(target, sample):
         sum_squared_error += (a - p) ** 2
     mse = (sum_squared_error / len(sample))
+    return mse
 
 #environment
 class TimeSeriesEnvironment:
@@ -249,12 +250,12 @@ def RunBestAgent(args):
     simulated_data = pd.DataFrame(simulation_results)
 
     simulated_data = pd.concat([data[:MAX_STEPS_G+1], simulated_data], ignore_index=True)
-    simulated_data.to_csv('Simulation_2.txt', index=False)
+    simulated_data.to_csv('Simulation_3.txt', index=False)
 
 if __name__ == '__main__':
     tStart = time.time()
-    trainer_checkpoint_path = Path("trainer_savepoint_2.pkl")
-    gen_checkpoint_path = Path("gen_savepoint_2.txt")
+    trainer_checkpoint_path = Path("trainer_savepoint_3.pkl")
+    gen_checkpoint_path = Path("gen_savepoint_3.txt")
 
     if trainer_checkpoint_path.exists():
         trainer = loadTrainer(trainer_checkpoint_path)
@@ -270,7 +271,7 @@ if __name__ == '__main__':
     else:
         gen_start = 0
 
-    with open('results_2.txt', 'a' if gen_start > 0 else 'w') as file:
+    with open('results_3.txt', 'a' if gen_start > 0 else 'w') as file:
         file.write(f"Trainer started: {trainer}\n")
         processes = mp.cpu_count()
 
@@ -289,11 +290,11 @@ if __name__ == '__main__':
                 teams = trainer.applyScores(scoreList)  
                 
                 champ = trainer.getEliteAgent(task='main')
-                champ.saveToFile("best_agent_2")
+                champ.saveToFile("best_agent_3")
 
                 trainer.evolve(tasks=['main'])
                 
-                validation_champion_path = Path("validation_champion_2")
+                validation_champion_path = Path("validation_champion_3")
                 if gen % 10 == 0 and gen != 0:  # Validation phase every 10 generations
                     prevbestscore = float('-inf')  # Starting value of negative infinity
                     looper = True
@@ -311,7 +312,7 @@ if __name__ == '__main__':
                         if current_best_validation.team.outcomes['validation'] >= prevbestscore:
                             prevbestscore = current_best_validation.team.outcomes['validation']
                             validationChamp = current_best_validation
-                            validationChamp.saveToFile("validation_champion_2")
+                            validationChamp.saveToFile("validation_champion_3")
                         else: 
                             if validation_champion_path.exists():
                                 validationChamp = pickle.load(open(validation_champion_path, 'rb'))
@@ -320,7 +321,7 @@ if __name__ == '__main__':
                                 validationChamp = trainer.getEliteAgent(task='validation')
                             print("Validation champion: ", validationChamp.team.outcomes)
                             print(f"Validation champ with the best test score: {validationChamp.team.outcomes['validation']} on test data.")
-                            with open("final_validation_scores_2.txt", 'w') as f:
+                            with open("final_validation_scores_3.txt", 'w') as f:
                                 f.write(str(validationChamp.team.outcomes['validation']))
                             looper = False
 
@@ -337,8 +338,8 @@ if __name__ == '__main__':
                 file.write(f"Gen: {gen}, Best Score: {scoreStats['max']}, Avg Score: {scoreStats['average']}, Time: {str((time.time() - tStart)/3600)}\n")
                 file.flush()  # Ensure data is written to disk
                 
-                trainer.saveToFile("trainer_savepoint_2.pkl")
-                with open("gen_savepoint_2.txt", 'w') as gen_file:
+                trainer.saveToFile("trainer_savepoint_3.pkl")
+                with open("gen_savepoint_3.txt", 'w') as gen_file:
                     gen_file.write(str(gen))
                 
             file.write(f'Time Taken (Hours): {(time.time() - tStart)/3600}\n')
@@ -350,7 +351,7 @@ if __name__ == '__main__':
             file.write(f"Error occurred: {str(e)}\n")
             file.flush()
 
-        champ = pickle.load(open("best_agent_2", 'rb'))
+        champ = pickle.load(open("best_agent_3", 'rb'))
         champ.configFunctionsSelf()
         print(champ.team)
         print(champ.team.fitness)

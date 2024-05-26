@@ -12,7 +12,7 @@ from tpg.utils import getLearners, getTeams, learnerInstructionStats, actionInst
 
 #values we can modify
 MAX_STEPS_G = 1000 #max values we want for training starts with 1 (so subtract one)
-GENERATIONS = 972
+GENERATIONS = 100000
 EXTRA_TIME_STEPS  = 300 #number of wanted generated values 
 STARTING_STEP = 0 #starting step
 DATA_DIVISION = 0.5
@@ -69,6 +69,7 @@ def mse(sample, target):
     for a, p in zip(target, sample):
         sum_squared_error += (a - p) ** 2
     mse = (sum_squared_error / len(sample))
+    return mse 
 
 #environment
 class TimeSeriesEnvironment:
@@ -189,6 +190,7 @@ def RunValidationAgents(args):
     reward = 0
 
     for ep in range(numEpisodes):
+        
         #memory array is returned as this is the action state
         action_state = env.reset(ep, episode_length) #resets at next 25 window (based on episode)
         #predicted_state = action_state  #recursion will only occur for an episode with the correct one starting
@@ -209,7 +211,7 @@ def RunValidationAgents(args):
             #second half of episode: 100 steps forecasting
             else:
                 predicted_state = (agent.act(action_state))
-                action_state, predicted_state, reward, isDone = env.step(predicted_state,reward_func='mse') #now fix step
+                action_state, predicted_state, reward, isDone = env.step(predicted_state, reward_func='mse') #now fix step
                 scoreEp += reward
 
             if isDone:
@@ -238,7 +240,7 @@ def RunBestAgent(args):
     
     print("Priming complete")
     for x in range(EXTRA_TIME_STEPS-1): 
-        print("FORECASTING: step "+str(x)+" for state: ", last_state)
+       # print("FORECASTING: step "+str(x)+" for state: ", last_state)
         action_value = (agent.act(last_state))
         #print("action value:", action_value)
         action_state = env.step_simulation(action_value)
